@@ -1,0 +1,27 @@
+{
+    "name": "elnur/era",
+    "description": "Date & Time Library",
+    "keywords": [
+        "date",
+        "time",
+        "datetime",
+        "calendar",
+        "age"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Elnur Abdurrakhimov",
+            "email": "elnur@elnur.pro",
+            "homepage": "http://www.elnur.pro"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
