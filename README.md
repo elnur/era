@@ -116,3 +116,9 @@ $ageCalculator = new AgeCalculator($calendar);
 $birthdate = new DateTime('1987-05-31');
 $age = $ageCalculator->age($birthdate);
 ```
+
+AgeCalculator
+-------------
+
+`AgeCalculator` is the class implemented above but with a tweak: if you ask it to figure out the age of something from
+the future, it returns `0`.
