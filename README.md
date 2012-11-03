@@ -1,6 +1,8 @@
 Era
 ===
 
+[![Build Status](https://secure.travis-ci.org/elnur/era.png)](http://travis-ci.org/elnur/era)
+
 Era is a date & time library.
 
 Calendar
