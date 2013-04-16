@@ -28,12 +28,12 @@ use Elnur\Era\CalendarInterface;
 class AgeCalculator implements AgeCalculatorInterface
 {
     /**
-     * @var \Elnur\Era\CalendarInterface
+     * @var CalendarInterface
      */
     private $calendar;
 
     /**
-     * @param \Elnur\Era\CalendarInterface $calendar
+     * @param CalendarInterface $calendar
      */
     public function __construct(CalendarInterface $calendar)
     {
@@ -41,7 +41,7 @@ class AgeCalculator implements AgeCalculatorInterface
     }
 
     /**
-     * @param \DateTime $from
+     * @param DateTime $from
      * @return int
      */
     public function age(DateTime $from)

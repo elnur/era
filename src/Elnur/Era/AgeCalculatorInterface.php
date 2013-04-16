@@ -27,7 +27,7 @@ use DateTime;
 interface AgeCalculatorInterface
 {
     /**
-     * @param \DateTime $from
+     * @param DateTime $from
      * @return int
      */
     public function age(DateTime $from);

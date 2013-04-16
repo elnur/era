@@ -22,10 +22,12 @@
  */
 namespace Elnur\Era;
 
+use DateTime;
+
 interface CalendarInterface
 {
     /**
-     * @return \DateTime
+     * @return DateTime
      */
     public function now();
 }

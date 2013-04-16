@@ -55,12 +55,12 @@ use Elnur\Era\CalendarInterface;
 class AgeCalculator
 {
     /**
-     * @var \Elnur\Era\CalendarInterface
+     * @var CalendarInterface
      */
     private $calendar;
 
     /**
-     * @var \Elnur\Era\CalendarInterface $calendar
+     * @var CalendarInterface $calendar
      */
     public function __construct(CalendarInterface $calendar)
     {

@@ -27,7 +27,7 @@ use DateTime;
 class Calendar implements CalendarInterface
 {
     /**
-     * @return \DateTime
+     * @return DateTime
      */
     public function now()
     {
