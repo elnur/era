@@ -101,7 +101,7 @@ class AgeCalculatorTest extends PHPUnit_Framework_TestCase
         $ageCalculator = new AgeCalculator($calendar);
         $birthdate = new DateTime('1987-05-31');
 
-        $this->assertEquals(25, $ageCalculator->age($birthdate);
+        $this->assertEquals(25, $ageCalculator->age($birthdate));
     }
 }
 ```
