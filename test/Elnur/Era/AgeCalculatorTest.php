@@ -23,15 +23,15 @@
 namespace Elnur\Era;
 
 use DateTime;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class AgeCalculatorTest extends PHPUnit_Framework_TestCase
+class AgeCalculatorTest extends TestCase
 {
     public function testAge()
     {
         $now = new DateTime('2007-05-31');
 
-        $calendar = $this->getMockForAbstractClass('Elnur\Era\CalendarInterface');
+        $calendar = $this->getMockForAbstractClass(CalendarInterface::class);
         $calendar
             ->expects($this->any())
             ->method('now')

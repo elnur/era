@@ -23,13 +23,17 @@
 namespace Elnur\Era;
 
 use DateTime;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class CalendarTest extends PHPUnit_Framework_TestCase
+class CalendarTest extends TestCase
 {
     public function testNow()
     {
+        $dateFormat = 'Y-m-d H:m';
         $calendar = new Calendar;
-        $this->assertEquals(new DateTime, $calendar->now());
+        $now = new DateTime;
+
+        $this->assertInstanceOf(DateTime::class, $calendar->now());
+        $this->assertEquals($now->format($dateFormat), $calendar->now()->format($dateFormat));
     }
 }
