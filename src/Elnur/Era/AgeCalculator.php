@@ -23,7 +23,6 @@
 namespace Elnur\Era;
 
 use DateTime;
-use Elnur\Era\CalendarInterface;
 
 class AgeCalculator implements AgeCalculatorInterface
 {

@@ -5,7 +5,7 @@
     bootstrap="./vendor/autoload.php"
 >
     <testsuites>
-        <testsuite>
+        <testsuite name="era tests">
             <directory>test</directory>
         </testsuite>
     </testsuites>
